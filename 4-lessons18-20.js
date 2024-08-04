@@ -9,3 +9,17 @@ let num = 5;
 console.log(++num) // 6
 console.log(num++) // 6
 console.log(num) // 7
+// unary operator + and - is also used as a way of casting strings to number type
+// if used with number will not do any thing
+console.log(+"100") // 100
+console.log(+"-100") // -100
+console.log(+"100.50") // 100.50
+console.log(+0xff) // 255
+console.log(+false) // 0
+console.log(+"mostafa") // NaN
+console.log(+null) // 0
+console.log(-null) // -0
+console.log(-"100") // -100
+console.log(-"-100") // 100
+// or you can use number constructor to convert
+console.log(Number("100")) // 100
