@@ -27,4 +27,6 @@ console.log(Number("100")) // 100
 // type coercion, type casting
 let a = "10", b = 20, c = true
 console.log(+a + b + c) // 31
-console.log(20 - "10")
+console.log(20 - "10") // 10
+console.log("10" - 20) // -10
+console.log(20 + "10") // 2010
