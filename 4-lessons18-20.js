@@ -5,4 +5,7 @@ console.log(10 - "string") // NaN
 console.log(10 * "string") // NaN 
 // funny fact: typeof NaN is number :)
 console.log(2 ** 4) // 16 which is 2 * 2 * 2 * 2
-
+let num = 5;
+console.log(++num) // 6
+console.log(num++) // 6
+console.log(num) // 7
