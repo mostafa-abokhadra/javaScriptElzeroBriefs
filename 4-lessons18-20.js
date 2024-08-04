@@ -23,3 +23,8 @@ console.log(-"100") // -100
 console.log(-"-100") // 100
 // or you can use number constructor to convert
 console.log(Number("100")) // 100
+
+// type coercion, type casting
+let a = "10", b = 20, c = true
+console.log(+a + b + c) // 31
+console.log(20 - "10")
