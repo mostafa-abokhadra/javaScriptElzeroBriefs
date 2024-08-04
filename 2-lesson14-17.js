@@ -1,3 +1,4 @@
+// strings
 // you can put single quotes inside a string that is made using double quotes and vice verca without any requirement from you to use escape character
 console.log("mostafa 'abokhadra'")
 console.log('mostafa "abokhadra"')
@@ -8,3 +9,7 @@ console.log("mostafa \
 			10.") // in case if you want to fromat your code you can also use the
 				  // the escape character.
 console.log("mostafa\nabokhadra\n"); // to add new lines
+
+let firstName = "mostafa", lastName = "abokhdara"
+console.log(firstName + " " + lastName) //mostafa abokhadra
+console.log(firstName, lastName) // mostafa abokhadra
